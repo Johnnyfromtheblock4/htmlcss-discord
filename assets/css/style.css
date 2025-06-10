@@ -108,6 +108,10 @@ footer {
   justify-content: center;
 }
 
+.justify-content-end {
+  justify-content: flex-end;
+}
+
 .justify-content-between {
   justify-content: space-between;
 }
@@ -192,3 +196,4 @@ header ul li {
 .size-20 {
   font-size: 20px;
 }
+
