@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+/* generals */
+header {
+  background-color: lightblue;
+  padding: 10px 0px;
+}
+
+footer {
+  background-color: rgb(62, 61, 61);
+}
+
+.top-footer {
+  padding-top: 10px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid lightgray;
+}
+
+.bottom-footer {
+  padding-top: 20px;
+}
+
+/* layout classes */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.container-sm {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.col-15 {
+  width: 15%;
+}
+
+.col-20 {
+  width: 20%;
+}
+
+.col-40 {
+  width: 40%;
+  height: 500px;
+}
+
+.col-60 {
+  width: 60%;
+}
+
+.col-100 {
+  width: 100%;
+  height: 500px;
+}
+
+/* utility classes */
+.bg-orange {
+  background-color: orange;
+}
+
+.bg-blue {
+  background-color: blue;
+}
+
+.bg-pink {
+  background-color: rgb(255, 41, 77);
+}
+
+.bg-gray {
+  background-color: gray;
+}
+
+.bg-green {
+  background-color: green;
+}
+
+.bg-bluegreen {
+  background-color: rgb(25, 240, 176);
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.border-black {
+  border: 1px dashed black;
+}
+
+.border-white {
+  border: 1px dashed white;
+}
+
+.p-20 {
+  padding: 20px;
+}
+
+.py-20 {
+  padding: 20px 0;
+}
+
+p-5 {
+  padding: 5px;
+}
+
+.my-50 {
+  margin: 50px auto;
+}
+
+/* content classes */
+ul {
+  list-style: none;
+}
+
+header ul {
+  display: flex;
+  justify-content: center;
+}
+
+header ul li {
+  margin: 0px 15px;
+}
+
+.text-right {
+  text-align: right;
+}
