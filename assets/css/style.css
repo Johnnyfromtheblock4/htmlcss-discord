@@ -45,6 +45,12 @@ footer {
   display: flex;
 }
 
+.container-bottom {
+  max-width: 1500px;
+  margin: 0 auto;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 .col-15 {
   width: 15%;
 }
@@ -66,7 +72,7 @@ footer {
 
 .col-100 {
   width: 100%;
-  height: 500px;
+  height: 800px;
 }
 
 /* utility classes */
@@ -197,3 +203,10 @@ header ul li {
   font-size: 20px;
 }
 
+.img-jc {
+  
+}
+
+.flex {
+  display: flex;
+}
