@@ -17,7 +17,6 @@ footer {
 .top-footer {
   padding-top: 10px;
   padding-bottom: 30px;
-  border-bottom: 1px solid #505561;
 }
 
 .bottom-footer {
@@ -32,6 +31,10 @@ footer {
 
 .socials {
   display: flex;
+}
+
+hr {
+  
 }
 
 /* layout classes */
@@ -146,10 +149,16 @@ footer {
   margin: 10px;
 }
 
+.circle-violet {
+  border-radius: 25%;
+  background-color: #6D87D2;
+  margin: 10px;
+}
+
 
 
 .p-10 {
-padding: 10px;
+  padding: 10px;
 }
 
 .p-20 {
@@ -216,6 +225,7 @@ header ul li {
 .size-20 {
   font-size: 20px;
 }
+
 .size-30 {
   font-size: 30px;
 }
