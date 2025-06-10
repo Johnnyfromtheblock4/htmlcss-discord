@@ -82,7 +82,11 @@ hr {
   height: 800px;
 }
 
-/* utility classes */
+
+/* UTILITY CLASSES */
+
+/* background */
+
 .bg-bluenavy {
   background-color: #3160E0;
 }
@@ -121,6 +125,9 @@ hr {
   justify-content: center;
 }
 
+
+/* justify-content */
+
 .justify-content-end {
   justify-content: flex-end;
 }
@@ -129,13 +136,7 @@ hr {
   justify-content: space-between;
 }
 
-.border-black {
-  border: 1px dashed black;
-}
-
-.border-white {
-  border: 1px dashed white;
-}
+/* circle */
 
 .circle-white {
   border-radius: 25%;
@@ -155,7 +156,7 @@ hr {
   margin: 10px;
 }
 
-
+/* padding / margin */
 
 .p-10 {
   padding: 10px;
@@ -195,6 +196,9 @@ header ul li {
   margin: 0px 15px;
 }
 
+
+/* text position */
+
 .text-right {
   text-align: right;
 }
@@ -204,6 +208,7 @@ header ul li {
 }
 
 
+/* text color */
 
 .text-white {
   color: white;
@@ -217,6 +222,8 @@ header ul li {
   color: #6D87D2;
 }
 
+
+/* text size */
 
 .size-60 {
   font-size: 60px;
@@ -232,10 +239,4 @@ header ul li {
 
 .size-50 {
   font-size: 50px;
-}
-
-.img-jc {}
-
-.flex {
-  display: flex;
 }
